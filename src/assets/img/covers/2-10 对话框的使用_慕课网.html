@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://coding.imooc.com/lesson/123.html#mid=5992 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style><style class="vjs-styles-dimensions">
+      .video-container-mocoplayer-hls-video-dimensions {
+        width: 1280px;
+        height: 720px;
+      }
+
+      .video-container-mocoplayer-hls-video-dimensions.vjs-fluid {
+        padding-top: 56.25%;
+      }
+    </style>
+    
+    <title>2-10 对话框的使用_慕课网</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta property="qc:admins" content="77103107776157736375">
+    <meta property="wb:webmaster" content="c4f857219bfae3cb">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Cache-Control" content="no-transform ">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="keywords" content="慕课网，实战课程，慕课实战，MOOC实战，移动实战，php实战，web前端实战，html5实战课程，java实战，python实战">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="慕课网实战课程结合视频快捷方便的体验，并与视频同步学习，边编程边看视频。">
+    
+    <link rel="stylesheet" href="./2-10 对话框的使用_慕课网_files/moco.min.css" type="text/css">
+    
+    <style type="text/css">
+    .moco-modal-info {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    </style>
+    
+<link rel="stylesheet" href="./2-10 对话框的使用_慕课网_files/ide.min.css">
+
+
+    <script src="./2-10 对话框的使用_慕课网_files/push.js.下载"></script><script src="./2-10 对话框的使用_慕课网_files/hm.js.下载"></script><script type="text/javascript">
+        var OP_CONFIG={"module":"lesson","page":"index","userout":0,"usercaution":null,"userInfo":{"uid":"3055104","nickname":"\u7c73\u5427","head":"\/\/img.mukewang.com\/user\/58ff42ea0001ed6402720272-80-80.jpg","usertype":"1","roleid":0,"phone":""}};
+        OP_CONFIG.isLogin = 1;
+        var isLogin = 1;
+        var _msg_unread = 0; 
+        var _not_unread = 0; 
+        var _cartFlag = 0;
+        var seajsTimestamp="v=201702111322";
+            </script>
+    
+    
+<script>
+	OP_CONFIG.curCourse = {
+		id: '123'
+	};
+	OP_CONFIG.marking = "r2kv8p";
+	OP_CONFIG.backup_status = "0";
+	OP_CONFIG.spaceUrl = {
+		user: 'https://www.imooc.com/space/u/uid/',
+		tea: 'https://www.imooc.com/space/teacher/id/'
+	};
+			OP_CONFIG.completelearn = "0";
+				OP_CONFIG.completeuinfotype = "0";
+				var projectInfo = {
+		systemInfo : [],
+		mysqlInfo : false,
+		usergit : {
+			username: '3055104',
+			password: 'htdusmcrgoey',
+			http: 'http://gitnfs.imooc.com/3055104/s123-3055104.git',
+		}
+	}
+	
+			projectInfo.mysqlInfo = {"mysql_username":"3055104","mysql_password":"123456"};
+	
+		
+	//是否从视频截图跳转过来
+	
+	// 任务节 是否需要显示增加的经验值
+	OP_CONFIG.exp = "";
+
+	OP_CONFIG.hasIde = '' ? false : true;
+	OP_CONFIG.projectId = "120356";
+	OP_CONFIG.projectSSH = '12o0bLujTV66';
+	OP_CONFIG.projectUrl = '';
+	OP_CONFIG.expire = '1';
+	OP_CONFIG.service_lifetime = '0';
+	OP_CONFIG.httpService = 0;
+		OP_CONFIG.termService = 0;
+		</script>
+
+    <link rel="stylesheet" href="./2-10 对话框的使用_慕课网_files/saved_resource" type="text/css">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/fingerprintjs2/fingerprintjs2.min.js" src="./2-10 对话框的使用_慕课网_files/fingerprintjs2.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/login-regist.js" src="./2-10 对话框的使用_慕课网_files/login-regist.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/chat" src="./2-10 对话框的使用_慕课网_files/chat.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/suggest" src="./2-10 对话框的使用_慕课网_files/suggest.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/cart" src="./2-10 对话框的使用_慕课网_files/cart.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/complete_user_info" src="./2-10 对话框的使用_慕课网_files/complete_user_info.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/userinfo" src="./2-10 对话框的使用_慕课网_files/userinfo.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lesson/index3.0" src="./2-10 对话框的使用_慕课网_files/index3.0.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/login-view.js" src="./2-10 对话框的使用_慕课网_files/login-view.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="placeholder" src="./2-10 对话框的使用_慕课网_files/placeholder.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="socketio" src="./2-10 对话框的使用_慕课网_files/socket.io.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryValidate" src="./2-10 对话框的使用_慕课网_files/jquery.validate.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="juicer" src="./2-10 对话框的使用_慕课网_files/juicer.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pagination" src="./2-10 对话框的使用_慕课网_files/jquery.pagination.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lesson/js/common" src="./2-10 对话框的使用_慕课网_files/common.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="store" src="./2-10 对话框的使用_慕课网_files/store.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/antifake" src="./2-10 对话框的使用_慕课网_files/antifake.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="qacommon/qa" src="./2-10 对话框的使用_慕课网_files/qa.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/mocoplayer/2.7.1/mocoplayer.js" src="./2-10 对话框的使用_慕课网_files/mocoplayer.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/autocomplete" src="./2-10 对话框的使用_慕课网_files/autocomplete.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modalbutton" src="./2-10 对话框的使用_慕课网_files/modal.button.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="autocomplete" src="./2-10 对话框的使用_慕课网_files/autocomplete.js(1).下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/util/core.js" src="./2-10 对话框的使用_慕课网_files/core.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/jquery-qrcode/jquery.qrcode.min.js" src="./2-10 对话框的使用_慕课网_files/jquery.qrcode.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/signup.js" src="./2-10 对话框的使用_慕课网_files/signup.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/signin.js" src="./2-10 对话框的使用_慕课网_files/signin.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/erweima.js" src="./2-10 对话框的使用_慕课网_files/erweima.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/phoneVerity.js" src="./2-10 对话框的使用_慕课网_files/phoneVerity.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/registerFinished.js" src="./2-10 对话框的使用_慕课网_files/registerFinished.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/emailVerity.js" src="./2-10 对话框的使用_慕课网_files/emailVerity.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/email_RegisterFinished.js" src="./2-10 对话框的使用_慕课网_files/email_RegisterFinished.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/phoneValidate.js" src="./2-10 对话框的使用_慕课网_files/phoneValidate.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/backbone/backbone-1.0.0.min.js" src="./2-10 对话框的使用_慕课网_files/backbone-1.0.0.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="qacommon/js/put_qa" src="./2-10 对话框的使用_慕课网_files/put_qa.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ueditor" src="./2-10 对话框的使用_慕课网_files/ueditor.final.min.js.下载"></script><link href="./2-10 对话框的使用_慕课网_files/mocoplayer.css" rel="stylesheet" type="text/css"><script src="./2-10 对话框的使用_慕课网_files/mocoplayer.html5.js.下载" type="text/javascript"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ide" src="./2-10 对话框的使用_慕课网_files/ide.min.js.下载"></script><style id="ace_editor.css">.ace_editor {position: relative;overflow: hidden;font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;direction: ltr;text-align: left;}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;cursor: text;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;min-width: 100%;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4wFAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir+Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/QRzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6eju5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99Nfg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78DPokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMgHFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIOzgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kfR+MMMDGOQAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAABPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf////e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIAAAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neXe5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYEwboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJaUrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLgupWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDbMegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIAqKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYMAPdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC");}.ace_scrollbar {position: absolute;right: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-v{overflow-x: hidden;overflow-y: scroll;top: 0;}.ace_scrollbar-h {overflow-x: scroll;overflow-y: hidden;left: 0;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;text-indent: -1em;-ms-user-select: text;-moz-user-select: text;-webkit-user-select: text;user-select: text;white-space: pre!important;}.ace_text-input.ace_composition {background: inherit;color: inherit;z-index: 1000;opacity: 1;text-indent: 0;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;word-wrap: normal;white-space: pre;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;border-left: 2px solid;transform: translatez(0);}.ace_slim-cursors .ace_cursor {border-left-width: 1px;}.ace_overwrite-cursors .ace_cursor {border-left-width: 0;border-bottom: 1px solid;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-webkit-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_editor.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMCIMAAI3INmXiwf2YAAAAASUVORK5CYII=");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC");}.ace_tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;max-width: 100%;padding: 3px 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;pointer-events: none;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKsQ0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg==");}.ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQmCCXA==");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-webkit-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-webkit-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}.ace_br1 {border-top-left-radius    : 3px;}.ace_br2 {border-top-right-radius   : 3px;}.ace_br3 {border-top-left-radius    : 3px; border-top-right-radius:    3px;}.ace_br4 {border-bottom-right-radius: 3px;}.ace_br5 {border-top-left-radius    : 3px; border-bottom-right-radius: 3px;}.ace_br6 {border-top-right-radius   : 3px; border-bottom-right-radius: 3px;}.ace_br7 {border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px;}.ace_br8 {border-bottom-left-radius : 3px;}.ace_br9 {border-top-left-radius    : 3px; border-bottom-left-radius:  3px;}.ace_br10{border-top-right-radius   : 3px; border-bottom-left-radius:  3px;}.ace_br11{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-left-radius:  3px;}.ace_br12{border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br13{border-top-left-radius    : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br14{border-top-right-radius   : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br15{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;}
+/*# sourceURL=ace/css/ace_editor.css */</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;color: black;}.ace-tm .ace_cursor {color: black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}
+/*# sourceURL=ace/css/ace-tm */</style><style>    .error_widget_wrapper {        background: inherit;        color: inherit;        border:none    }    .error_widget {        border-top: solid 2px;        border-bottom: solid 2px;        margin: 5px 0;        padding: 10px 40px;        white-space: pre-wrap;    }    .error_widget.ace_error, .error_widget_arrow.ace_error{        border-color: #ff5a5a    }    .error_widget.ace_warning, .error_widget_arrow.ace_warning{        border-color: #F1D817    }    .error_widget.ace_info, .error_widget_arrow.ace_info{        border-color: #5a5a5a    }    .error_widget.ace_ok, .error_widget_arrow.ace_ok{        border-color: #5aaa5a    }    .error_widget_arrow {        position: absolute;        border: solid 5px;        border-top-color: transparent!important;        border-right-color: transparent!important;        border-left-color: transparent!important;        top: -5px;    }</style><style>.ace_snippet-marker {    -moz-box-sizing: border-box;    box-sizing: border-box;    background: rgba(194, 193, 208, 0.09);    border: 1px dotted rgba(211, 208, 235, 0.62);    position: absolute;}</style><style>.ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line {    background-color: #CAD6FA;    z-index: 1;}.ace_editor.ace_autocomplete .ace_line-hover {    border: 1px solid #abbffe;    margin-top: -1px;    background: rgba(233,233,253,0.4);}.ace_editor.ace_autocomplete .ace_line-hover {    position: absolute;    z-index: 2;}.ace_editor.ace_autocomplete .ace_scroller {   background: none;   border: none;   box-shadow: none;}.ace_rightAlignedText {    color: gray;    display: inline-block;    position: absolute;    right: 4px;    text-align: right;    z-index: -1;}.ace_editor.ace_autocomplete .ace_completion-highlight{    color: #000;    text-shadow: 0 0 0.01em;}.ace_editor.ace_autocomplete {    width: 280px;    z-index: 200000;    background: #fbfbfb;    color: #444;    border: 1px lightgray solid;    position: fixed;    box-shadow: 2px 3px 5px rgba(0,0,0,.2);    line-height: 1.4;}</style><script src="./2-10 对话框的使用_慕课网_files/theme-tomorrow_night.js.下载"></script><style id="ace-tomorrow-night">.ace-tomorrow-night .ace_gutter {background: #25282c;color: #C5C8C6}.ace-tomorrow-night .ace_print-margin {width: 1px;background: #25282c}.ace-tomorrow-night {background-color: #1D1F21;color: #C5C8C6}.ace-tomorrow-night .ace_cursor {color: #AEAFAD}.ace-tomorrow-night .ace_marker-layer .ace_selection {background: #373B41}.ace-tomorrow-night.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px #1D1F21;}.ace-tomorrow-night .ace_marker-layer .ace_step {background: rgb(102, 82, 0)}.ace-tomorrow-night .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid #4B4E55}.ace-tomorrow-night .ace_marker-layer .ace_active-line {background: #282A2E}.ace-tomorrow-night .ace_gutter-active-line {background-color: #282A2E}.ace-tomorrow-night .ace_marker-layer .ace_selected-word {border: 1px solid #373B41}.ace-tomorrow-night .ace_invisible {color: #4B4E55}.ace-tomorrow-night .ace_keyword,.ace-tomorrow-night .ace_meta,.ace-tomorrow-night .ace_storage,.ace-tomorrow-night .ace_storage.ace_type,.ace-tomorrow-night .ace_support.ace_type {color: #B294BB}.ace-tomorrow-night .ace_keyword.ace_operator {color: #8ABEB7}.ace-tomorrow-night .ace_constant.ace_character,.ace-tomorrow-night .ace_constant.ace_language,.ace-tomorrow-night .ace_constant.ace_numeric,.ace-tomorrow-night .ace_keyword.ace_other.ace_unit,.ace-tomorrow-night .ace_support.ace_constant,.ace-tomorrow-night .ace_variable.ace_parameter {color: #DE935F}.ace-tomorrow-night .ace_constant.ace_other {color: #CED1CF}.ace-tomorrow-night .ace_invalid {color: #CED2CF;background-color: #DF5F5F}.ace-tomorrow-night .ace_invalid.ace_deprecated {color: #CED2CF;background-color: #B798BF}.ace-tomorrow-night .ace_fold {background-color: #81A2BE;border-color: #C5C8C6}.ace-tomorrow-night .ace_entity.ace_name.ace_function,.ace-tomorrow-night .ace_support.ace_function,.ace-tomorrow-night .ace_variable {color: #81A2BE}.ace-tomorrow-night .ace_support.ace_class,.ace-tomorrow-night .ace_support.ace_type {color: #F0C674}.ace-tomorrow-night .ace_heading,.ace-tomorrow-night .ace_markup.ace_heading,.ace-tomorrow-night .ace_string {color: #B5BD68}.ace-tomorrow-night .ace_entity.ace_name.ace_tag,.ace-tomorrow-night .ace_entity.ace_other.ace_attribute-name,.ace-tomorrow-night .ace_meta.ace_tag,.ace-tomorrow-night .ace_string.ace_regexp,.ace-tomorrow-night .ace_variable {color: #CC6666}.ace-tomorrow-night .ace_comment {color: #969896}.ace-tomorrow-night .ace_indent-guide {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYHB3d/8PAAOIAdULw8qMAAAAAElFTkSuQmCC) right repeat-y}
+/*# sourceURL=ace/css/ace-tomorrow-night */</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="scrollbar" src="./2-10 对话框的使用_慕课网_files/jquery.scrollbar.js.下载"></script></head>
+<body class="visible">
+
+
+        
+<div class="code-layout" id="webide-layout">
+	<div class="col-left" id="webide-left" data-minw="400" data-maxw="">
+		<div class="inner">
+			<div class="chapter-name clearfix">
+				<h2 id="g-media-name">2-10 对话框的使用</h2>
+				<!-- <a href="/class/index/cid/123" class="small">返回课程页</a> -->
+			</div>
+			<div class="pannel task-pannel" style="display: none" id="task-pannel">
+				<div class="pannel-cnt scroll">
+					<div id="task-placeholder" class="scroller"></div>
+				</div>
+			</div>
+			<div class="pannel video-pannel" style="" id="video-pannel">
+				<div class="video-container" id="video-container"><div id="video-container-mocoplayer" class="mocoplayer"><div src="blob:https://coding.imooc.com/547d05f4-d1e9-4088-83e4-628daca98a5e" autobuffer="" preload="auto" class="video-js vjs-default-skin videoCentered vjs-controls-enabled vjs-workinghover video-container-mocoplayer-hls-video-dimensions vjs-has-started vjs-paused vjs-user-active" id="video-container-mocoplayer-hls-video" role="region" aria-label="video player"><video id="video-container-mocoplayer-hls-video_html5_api" class="vjs-tech" preload="auto" autobuffer="" src="blob:https://coding.imooc.com/547d05f4-d1e9-4088-83e4-628daca98a5e"> </video><div></div><div class="vjs-loading-spinner" dir="ltr"></div><div class="vjs-control-bar" dir="ltr" role="group"><button class="vjs-play-control vjs-control vjs-button vjs-paused" type="button" aria-live="polite"><span class="vjs-control-text">Play</span></button><div class="vjs-remaining-time vjs-time-control vjs-control"><div class="vjs-remaining-time-display" aria-live="off">17:12 / 34:35</div></div><div class="vjs-current-time vjs-time-control vjs-control"><div class="vjs-current-time-display" aria-live="off"><span class="vjs-control-text">Current Time</span> 17:12</div></div><div class="vjs-time-control vjs-time-divider"><div><span>/</span></div></div><div class="vjs-duration vjs-time-control vjs-control"><div class="vjs-duration-display" aria-live="off"><span class="vjs-control-text">Duration Time</span> 34:35</div></div><div class="vjs-progress-control vjs-control"><div tabindex="0" class="vjs-progress-holder vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="49.72" aria-valuemin="0" aria-valuemax="100" aria-label="progress bar" aria-valuetext="17:12"><div class="vjs-load-progress" style="width: 100%;"><span class="vjs-control-text" style="left: 9.05627%; width: 90.9437%;"><span>Loaded</span>: 0%</span></div><div class="vjs-mouse-display" data-current-time="15:55" style="left: 589px;"></div><div class="vjs-play-progress vjs-slider-bar" data-current-time="17:12" style="width: 49.72%;"><span class="vjs-control-text"><span>Progress</span>: 0%</span></div></div></div><div class="vjs-switchCdnLine-control" title="线路选择"><div class="vjs-switchCdnLine-display"></div></div><div class="vjs-volume-menu-button vjs-menu-button vjs-menu-button-inline vjs-control vjs-button vjs-volume-menu-button-horizontal vjs-vol-3" tabindex="0" role="button" aria-live="polite"><div class="vjs-menu"><div class="vjs-menu-content"><div tabindex="0" class="vjs-volume-bar vjs-slider-bar vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="100.00" aria-valuemin="0" aria-valuemax="100" aria-label="volume level" aria-valuetext="100.00%"><div class="vjs-volume-level" style="width: 100%;"><span class="vjs-control-text"></span></div></div></div></div><span class="vjs-control-text">Mute</span></div><div class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-control vjs-button" tabindex="0" role="menuitem" aria-live="polite" aria-expanded="false" aria-haspopup="true"><div class="vjs-menu" id="vjsMenu" role="presentation" style="visibility: visible;"><h4 class=""><div class="titleimg"></div></h4><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item" tabindex="-1" role="menuitem" aria-live="polite">2.0x<span class="vjs-control-text"></span></li><li class="vjs-menu-item current" tabindex="-1" role="menuitem" aria-live="polite">1.75x<span class="vjs-control-text"></span><i class="imv2-check"></i></li><li class="vjs-menu-item" tabindex="-1" role="menuitem" aria-live="polite">1.5x<span class="vjs-control-text"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitem" aria-live="polite">1.25x<span class="vjs-control-text"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitem" aria-live="polite">1.0x<span class="vjs-control-text"></span></li></ul></div><span class="vjs-control-text">Playback Rate</span><div class="vjs-playback-rate-value rate175x"></div></div><div class="vjs-level-control vjs-level-control-button"><div class="vjs-level-button qH" id="vjs-level-button"></div></div><div class="vjs-setting-control vjs-set-control-button"><div class="vjs-set-button"></div></div><button class="vjs-fullscreen-control vjs-control vjs-button " type="button" aria-live="polite"><span class="vjs-control-text">Non-Fullscreen</span></button></div><div class="chaptertitle" id="chapterId" style="visibility: hidden;">&nbsp;&nbsp;&nbsp;&nbsp;对话框的使用</div><div class="vjs-level-overlay" id="levelOverlay" style="display: none;">
+        <h4><div class="leveltitleimg"></div></h4>
+        <ul><li><span>普清</span><i class="imv2-check"></i></li><li><span>高清</span><i class="imv2-check"></i></li><li class="levelCurrent clearfix"><span>超清</span><i class="imv2-check"></i></li></ul>
+    </div><div class="vjs-set-menu-bg" id="setoverlay" style="visibility: hidden;">
+      <h4>
+        <div class="titleimg"></div>
+      </h4>
+      <div class="">
+        <a class="vjs-set-link selected clearfix" href="javascript:;">
+          <span>HTML5</span>
+          <i class="imv2-check"></i>
+        </a>
+        <a class="vjs-set-link clearfix disabled" id="switchFlashPlayer" href="javascript:;">
+          <span>FLASH</span>
+        </a>
+      </div>
+    </div><div class="mocoplayer-right-pause" style="display: block;"></div></div></div></div>
+				<div class="next-mask" id="next-mask">
+					<div class="next-content">
+						<div id="next-media-content">    <p class="next-hd">          下一节：<span class="next-name">Autocomplete 的使用</span><span class="next-time">(17:01)</span>         </p>    <div class="next-btns">          <a href="https://coding.imooc.com/lesson/123.html#mid=5994" data-mid="5994" class="next-btn js-next-media">下一节</a>           </div>  </div>
+						<a href="javascript:;" class="view-again js-view-again">
+							<i class="sz-replay"></i>重新观看
+						</a>
+					</div>
+					<i class="helper"></i>
+				</div>
+			</div>
+		</div>
+		<div class="drag-wrap" id="webide-drag">
+			<span class="drag"></span>
+		</div>
+		<div class="mp-tip" id="mp-tip"></div>
+	</div><!-- end col-left -->
+	<div class="col-right" id="webide-right" data-minw="400">
+		<div class="pannel white" id="qa-pannel" style="background: #F8FAFC;">
+			<div class="pannel-inner">
+				<h2 class="pannel-tit">问答</h2>
+				<div class="scroll">
+					<div class="scroller">
+						<div class="qa-input">
+                            <i class="imv2-close qa-input-close"></i>
+                            <input class="qa-input-text" type="text" placeholder="请输入你的问题">
+                            <input class="qa-input-button" type="button" value="提问">
+                        </div>
+                        
+                        <div id="qaListContainer">
+                            <div class="qa-nav clearfix">
+                                <a class="curr" data-type="0" href="javascript:;">热门</a>
+                                <a data-type="1" href="javascript:;">待解决</a>
+                                <a data-type="2" href="javascript:;">我的提问</a>
+                                <a data-type="3" href="javascript:;">我的回答</a>
+                                
+								<!--
+                                <span>共有<i class='js-qa-count'></i>个问题，已解决<i class='js-qa-finished'></i>个问题</span>
+								-->
+							</div>
+                            
+                            <div id="qa-list">
+                                
+                            </div>
+							
+							<div class="comp-loading" style="margin-top: 100px;">
+								<i class="sz-loading"></i>
+								<span class="text">数据加载中...</span>
+							</div>
+							
+							<div class="page pagination"></div>
+                        </div>
+                        
+                        <div class="qa-search-list js-qa-search-list">
+                            
+                            <div class="qa-search-tip">
+                                <i class="sz-tips"></i>
+                                <span>您想找的是不是以下问题？</span>
+                            </div>
+                            
+                            <div id="qa-search-list">
+                            
+                            </div>
+                        </div>
+					</div>
+				</div>	
+				<a href="javascript:;" class="pannel-close" data-action="close">
+					<i class="sz-close"></i>
+				</a>
+			</div>
+		</div>
+		<div class="pannel white" id="note-pannel">
+			<div class="pannel-inner">
+				<h2 class="pannel-tit">笔记</h2>
+				<div class="scroll"><!-- 滚动条容器 -->
+					<div class="scroller">
+						<div class="webide-form">
+							<form action="https://coding.imooc.com/lesson/ajaxsavenote" id="note-form" method="post">
+								<div class="row clearfix">
+									<span class="label"></span>
+									<div class="ctrl">
+										<textarea name="content" id="note-textarea" class="ipt ipt-cnt" placeholder="请输入笔记内容..."></textarea>
+									</div>
+									<div class="ipt-tip"></div>
+								</div>
+								<div class="row clearfix">
+									<div class="ctrl">
+										<div class="verify-box l js-verify-box">
+										  <i class="i-verify-icon sz-done"></i>
+										  <input type="text" name="verify" class="ipt l js-verify" placeholder="请输入验证码" autocomplete="off">
+										  <a href="javascript:;" class="js-verify-refresh"><img data-src="/lesson/ajaxverifycode" class="verify-media l"></a>
+										  <span class="verify-help l">
+										    看不清
+										    <a href="javascript:;" class="verify-refresh js-verify-refresh">换一换</a>
+										  </span>
+										</div>
+										<div class="r">
+											<a href="javascript:;" class="submit r js-note-submit" data-text="提交">提交</a>
+											<span class="comp-checkbox js-comp-checkbox r" data-hidden="share" data-selected="true">
+												<i class="sz-check-o"></i>
+												公开
+												<input type="hidden" name="share" id="name-share">
+											</span>
+											<span class="comp-switch js-comp-switch r" data-hidden="note-capture" style="display: none">
+												<b class="switcher">截图</b>
+												<input type="hidden" name="capture" id="name-note-capture">
+											</span>
+										</div>
+										<div class="ipt-tip"></div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="js-tabs" data-key="note">
+							<div class="comp-filter-bar tab-bars">
+							   <a href="javascript:;" data-key="0" class="bar-item">全部笔记</a>
+							   <a href="javascript:;" data-key="1" class="bar-item">我的笔记</a>
+							</div>
+							<div class="tab-pannels">
+								<div class="tab-pannel">
+									<ul class="mod-post">
+										<div class="comp-loading">
+											<i class="sz-loading"></i>
+											<span class="text">数据加载中...</span>
+										</div>
+									</ul>
+									<div class="page pagination"></div>
+								</div>
+								<div class="tab-pannel">
+									<ul class="mod-post">
+										<div class="comp-loading">
+											<i class="sz-loading"></i>
+											<span class="text">数据加载中...</span>
+										</div>
+									</ul>
+									<div class="page pagination"></div>
+								</div>
+								<!-- 编辑状态的保存按钮 -->
+								<div class="cnt-area-action" id="cnt-update-save" style="display: none">
+									<p class="post-update-tip l"></p>
+								    <a href="javascript:;" class="r js-post-update">保存</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>		
+				<a href="javascript:;" class="pannel-close" data-action="close">
+					<i class="sz-close"></i>
+				</a>
+			</div>
+		</div>
+	<div class="pannel active ide-container ide-mini-enable" id="ide-pannel"><div class="ide-main-section" style="height: auto; bottom: 0px;"><div class="ide-init-loading js-ide-loading" style="display: none;"><p>代码多，加载慢，等着呗...</p></div><div class="idemenu"><div class="idetree-trigger-out js-ide-mini"><span class="idetree-out ide-mini-anim animated"><i class="ide-icon ide-icon-home"></i></span></div><div class="idetree-trigger-in"><span class="idetree-in fa fa-indent"></span></div><ul class="idemenu-ctn"><li class="idemenu-ctn-item"><div>File</div><ul class="ide-menu"><li class="ide-menu-item"><span class="block">New File</span></li><li class="ide-menu-item"><span class="block">New Folder</span></li><li class="ide-menu-item"><span class="block">Save</span><em class="shortcut">Ctrl+S</em></li><li class="ide-menu-item"><span class="block">Refresh</span></li><li class="ide-menu-item"><span class="block">Close All</span><em class="shortcut">Alt+Q</em></li></ul></li><li class="idemenu-ctn-item"><div>View</div><ul class="ide-menu"><li class="ide-menu-item ide-menu-item-toggle"><span class="block"><i class="fa fa-check check"></i>Wrap lines</span></li><li class="ide-menu-item ide-menu-item-toggle checked"><span class="block"><i class="fa fa-check check"></i>File tree</span></li><li class="ide-menu-item"><span class="block">Open Ide Window</span></li><li class="ide-menu-item"><span class="block">Font size<em class="arr"><i class="fa fa-caret-right"></i></em></span><ul class="ide-menu"><li class="ide-menu-item"><span class="block">Larger</span><em class="shortcut">Ctrl+Shift+[</em></li><li class="ide-menu-item"><span class="block">Smaller</span><em class="shortcut">Ctrl+Shift+]</em></li><li class="ide-menu-item"><span class="block">Reset</span></li></ul></li><li class="ide-menu-item"><span class="block">Language<em class="arr"><i class="fa fa-caret-right"></i></em></span><ul class="ide-menu"><li class="ide-menu-item"><span class="block">English</span></li><li class="ide-menu-item"><span class="block">Chinese</span></li></ul></li></ul></li><li class="idemenu-ctn-item"><div>Project</div><ul class="ide-menu"><li class="ide-menu-item"><span class="block">Commit+Push</span><em class="shortcut">Ctrl+M</em></li><li class="ide-menu-item"><span class="block">Pull</span><em class="shortcut">Alt+P</em></li><li class="ide-menu-item"><span class="block">Download</span></li><li class="ide-menu-item"><span class="block">Reset</span></li><li class="ide-menu-item"><span class="block">Clone</span></li><li class="ide-menu-item"><span class="block">History</span></li></ul></li><li class="idemenu-ctn-item"><div>Help</div><ul class="ide-menu"><li class="ide-menu-item"><span class="block">FeedBack</span></li><li class="ide-menu-item"><span class="block">Documentation</span></li></ul></li></ul><div class="split"></div><ul class="ide-menu-btns"></ul></div><div class="idetree"><div class="idetree-inner"><div class="idetree-head">Project Files</div><div class="idetree-con idetree-1" role="tree" tabindex="0"><ul class="idetree-children" role="group"><li id="/e2e" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="e2e">e2e</span></div></li><li id="/src" data-type="d" role="idetree-item" class="idetree-item idetree-open"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa fa-angle-down"></span><span class="idetree-filetype fa idetree-typefolder fa-folder-open"></span><span class="idetree-caption" title="src">src</span></div><ul role="group" class="idetree-children" style=""><li id="/src/app" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="app">app</span></div></li><li id="/src/assets" data-type="d" role="idetree-item" class="idetree-item idetree-open"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa fa-angle-down"></span><span class="idetree-filetype fa idetree-typefolder fa-folder-open"></span><span class="idetree-caption" title="assets">assets</span></div><ul role="group" class="idetree-children" style=""><li id="/src/assets/img" data-type="d" role="idetree-item" class="idetree-item idetree-open"><div class="idetree-node"><span class="idetree-indent" style="padding-left:36px;"></span><span class="idetree-toggle fa fa-angle-down"></span><span class="idetree-filetype fa idetree-typefolder fa-folder-open"></span><span class="idetree-caption" title="img">img</span></div><ul role="group" class="idetree-children" style=""><li id="/src/assets/img/avatar" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="avatar">avatar</span></div></li><li id="/src/assets/img/covers" data-type="d" role="idetree-item" class="idetree-item idetree-open"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa fa-angle-down"></span><span class="idetree-filetype fa idetree-typefolder fa-folder-open"></span><span class="idetree-caption" title="covers">covers</span></div><ul role="group" class="idetree-children" style=""><li id="/src/assets/img/covers/._0_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="._0_tn.jpg">._0_tn.jpg</span></div></li><li id="/src/assets/img/covers/0.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="0.jpg">0.jpg</span></div></li><li id="/src/assets/img/covers/0_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="0_tn.jpg">0_tn.jpg</span></div></li><li id="/src/assets/img/covers/1.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node idetree-node-active"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="1.jpg">1.jpg</span></div></li><li id="/src/assets/img/covers/10.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="10.jpg">10.jpg</span></div></li><li id="/src/assets/img/covers/10_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="10_tn.jpg">10_tn.jpg</span></div></li><li id="/src/assets/img/covers/11.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="11.jpg">11.jpg</span></div></li><li id="/src/assets/img/covers/11_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="11_tn.jpg">11_tn.jpg</span></div></li><li id="/src/assets/img/covers/12.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="12.jpg">12.jpg</span></div></li><li id="/src/assets/img/covers/12_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="12_tn.jpg">12_tn.jpg</span></div></li><li id="/src/assets/img/covers/13.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="13.jpg">13.jpg</span></div></li><li id="/src/assets/img/covers/13_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="13_tn.jpg">13_tn.jpg</span></div></li><li id="/src/assets/img/covers/14.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="14.jpg">14.jpg</span></div></li><li id="/src/assets/img/covers/14_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="14_tn.jpg">14_tn.jpg</span></div></li><li id="/src/assets/img/covers/15.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="15.jpg">15.jpg</span></div></li><li id="/src/assets/img/covers/15_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="15_tn.jpg">15_tn.jpg</span></div></li><li id="/src/assets/img/covers/16.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="16.jpg">16.jpg</span></div></li><li id="/src/assets/img/covers/16_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="16_tn.jpg">16_tn.jpg</span></div></li><li id="/src/assets/img/covers/17.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="17.jpg">17.jpg</span></div></li><li id="/src/assets/img/covers/17_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="17_tn.jpg">17_tn.jpg</span></div></li><li id="/src/assets/img/covers/18.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="18.jpg">18.jpg</span></div></li><li id="/src/assets/img/covers/18_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="18_tn.jpg">18_tn.jpg</span></div></li><li id="/src/assets/img/covers/19.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="19.jpg">19.jpg</span></div></li><li id="/src/assets/img/covers/19_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="19_tn.jpg">19_tn.jpg</span></div></li><li id="/src/assets/img/covers/1_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="1_tn.jpg">1_tn.jpg</span></div></li><li id="/src/assets/img/covers/2.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="2.jpg">2.jpg</span></div></li><li id="/src/assets/img/covers/20.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="20.jpg">20.jpg</span></div></li><li id="/src/assets/img/covers/20_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="20_tn.jpg">20_tn.jpg</span></div></li><li id="/src/assets/img/covers/21.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="21.jpg">21.jpg</span></div></li><li id="/src/assets/img/covers/21_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="21_tn.jpg">21_tn.jpg</span></div></li><li id="/src/assets/img/covers/22.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="22.jpg">22.jpg</span></div></li><li id="/src/assets/img/covers/22_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="22_tn.jpg">22_tn.jpg</span></div></li><li id="/src/assets/img/covers/23.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="23.jpg">23.jpg</span></div></li><li id="/src/assets/img/covers/23_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="23_tn.jpg">23_tn.jpg</span></div></li><li id="/src/assets/img/covers/24.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="24.jpg">24.jpg</span></div></li><li id="/src/assets/img/covers/24_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="24_tn.jpg">24_tn.jpg</span></div></li><li id="/src/assets/img/covers/25.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="25.jpg">25.jpg</span></div></li><li id="/src/assets/img/covers/25_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="25_tn.jpg">25_tn.jpg</span></div></li><li id="/src/assets/img/covers/26.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="26.jpg">26.jpg</span></div></li><li id="/src/assets/img/covers/26_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="26_tn.jpg">26_tn.jpg</span></div></li><li id="/src/assets/img/covers/27.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="27.jpg">27.jpg</span></div></li><li id="/src/assets/img/covers/27_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="27_tn.jpg">27_tn.jpg</span></div></li><li id="/src/assets/img/covers/28.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="28.jpg">28.jpg</span></div></li><li id="/src/assets/img/covers/28_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="28_tn.jpg">28_tn.jpg</span></div></li><li id="/src/assets/img/covers/29.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="29.jpg">29.jpg</span></div></li><li id="/src/assets/img/covers/29_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="29_tn.jpg">29_tn.jpg</span></div></li><li id="/src/assets/img/covers/2_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="2_tn.jpg">2_tn.jpg</span></div></li><li id="/src/assets/img/covers/3.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="3.jpg">3.jpg</span></div></li><li id="/src/assets/img/covers/30.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="30.jpg">30.jpg</span></div></li><li id="/src/assets/img/covers/30_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="30_tn.jpg">30_tn.jpg</span></div></li><li id="/src/assets/img/covers/31.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="31.jpg">31.jpg</span></div></li><li id="/src/assets/img/covers/31_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="31_tn.jpg">31_tn.jpg</span></div></li><li id="/src/assets/img/covers/32.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="32.jpg">32.jpg</span></div></li><li id="/src/assets/img/covers/32_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="32_tn.jpg">32_tn.jpg</span></div></li><li id="/src/assets/img/covers/33.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="33.jpg">33.jpg</span></div></li><li id="/src/assets/img/covers/33_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="33_tn.jpg">33_tn.jpg</span></div></li><li id="/src/assets/img/covers/34.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="34.jpg">34.jpg</span></div></li><li id="/src/assets/img/covers/34_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="34_tn.jpg">34_tn.jpg</span></div></li><li id="/src/assets/img/covers/35.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="35.jpg">35.jpg</span></div></li><li id="/src/assets/img/covers/35_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="35_tn.jpg">35_tn.jpg</span></div></li><li id="/src/assets/img/covers/36.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="36.jpg">36.jpg</span></div></li><li id="/src/assets/img/covers/36_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="36_tn.jpg">36_tn.jpg</span></div></li><li id="/src/assets/img/covers/37.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="37.jpg">37.jpg</span></div></li><li id="/src/assets/img/covers/37_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="37_tn.jpg">37_tn.jpg</span></div></li><li id="/src/assets/img/covers/38.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="38.jpg">38.jpg</span></div></li><li id="/src/assets/img/covers/38_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="38_tn.jpg">38_tn.jpg</span></div></li><li id="/src/assets/img/covers/39.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="39.jpg">39.jpg</span></div></li><li id="/src/assets/img/covers/39_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="39_tn.jpg">39_tn.jpg</span></div></li><li id="/src/assets/img/covers/3_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="3_tn.jpg">3_tn.jpg</span></div></li><li id="/src/assets/img/covers/4.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="4.jpg">4.jpg</span></div></li><li id="/src/assets/img/covers/4_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="4_tn.jpg">4_tn.jpg</span></div></li><li id="/src/assets/img/covers/5.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="5.jpg">5.jpg</span></div></li><li id="/src/assets/img/covers/5_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="5_tn.jpg">5_tn.jpg</span></div></li><li id="/src/assets/img/covers/6.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="6.jpg">6.jpg</span></div></li><li id="/src/assets/img/covers/6_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="6_tn.jpg">6_tn.jpg</span></div></li><li id="/src/assets/img/covers/7.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="7.jpg">7.jpg</span></div></li><li id="/src/assets/img/covers/7_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="7_tn.jpg">7_tn.jpg</span></div></li><li id="/src/assets/img/covers/8.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="8.jpg">8.jpg</span></div></li><li id="/src/assets/img/covers/8_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="8_tn.jpg">8_tn.jpg</span></div></li><li id="/src/assets/img/covers/9.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="9.jpg">9.jpg</span></div></li><li id="/src/assets/img/covers/9_tn.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:60px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="9_tn.jpg">9_tn.jpg</span></div></li></ul></li><li id="/src/assets/img/days" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="days">days</span></div></li><li id="/src/assets/img/icons" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="icons">icons</span></div></li><li id="/src/assets/img/quotes" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="quotes">quotes</span></div></li><li id="/src/assets/img/sidebar" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="sidebar">sidebar</span></div></li><li id="/src/assets/img/._.DS_Store" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="._.DS_Store">._.DS_Store</span></div></li><li id="/src/assets/img/._developer.png" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="._developer.png">._developer.png</span></div></li><li id="/src/assets/img/._not-found.png" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="._not-found.png">._not-found.png</span></div></li><li id="/src/assets/img/._quote_fallback.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="._quote_fallback.jpg">._quote_fallback.jpg</span></div></li><li id="/src/assets/img/.DS_Store" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title=".DS_Store">.DS_Store</span></div></li><li id="/src/assets/img/developer.png" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="developer.png">developer.png</span></div></li><li id="/src/assets/img/not-found.png" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="not-found.png">not-found.png</span></div></li><li id="/src/assets/img/quote_fallback.jpg" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:48px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="quote_fallback.jpg">quote_fallback.jpg</span></div></li></ul></li><li id="/src/assets/._.DS_Store" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:36px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="._.DS_Store">._.DS_Store</span></div></li><li id="/src/assets/.DS_Store" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:36px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title=".DS_Store">.DS_Store</span></div></li><li id="/src/assets/.gitkeep" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:36px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title=".gitkeep">.gitkeep</span></div></li></ul></li><li id="/src/environments" data-type="d" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa fa-angle-right"></span><span class="idetree-filetype fa idetree-typefolder fa-folder "></span><span class="idetree-caption" title="environments">environments</span></div></li><li id="/src/favicon.ico" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="favicon.ico">favicon.ico</span></div></li><li id="/src/index.html" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="index.html">index.html</span></div></li><li id="/src/main.ts" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="main.ts">main.ts</span></div></li><li id="/src/polyfills.ts" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="polyfills.ts">polyfills.ts</span></div></li><li id="/src/styles.scss" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="styles.scss">styles.scss</span></div></li><li id="/src/test.ts" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="test.ts">test.ts</span></div></li><li id="/src/tsconfig.app.json" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="tsconfig.app.json">tsconfig.app.json</span></div></li><li id="/src/tsconfig.spec.json" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="tsconfig.spec.json">tsconfig.spec.json</span></div></li><li id="/src/typings.d.ts" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:24px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="typings.d.ts">typings.d.ts</span></div></li></ul></li><li id="/.angular-cli.json" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title=".angular-cli.json">.angular-cli.json</span></div></li><li id="/.editorconfig" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title=".editorconfig">.editorconfig</span></div></li><li id="/.gitignore" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title=".gitignore">.gitignore</span></div></li><li id="/karma.conf.js" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="karma.conf.js">karma.conf.js</span></div></li><li id="/package.json" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="package.json">package.json</span></div></li><li id="/protractor.conf.js" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="protractor.conf.js">protractor.conf.js</span></div></li><li id="/README.md" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="README.md">README.md</span></div></li><li id="/tsconfig.json" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="tsconfig.json">tsconfig.json</span></div></li><li id="/tslint.json" data-type="f" role="idetree-item" class="idetree-item"><div class="idetree-node"><span class="idetree-indent" style="padding-left:12px;"></span><span class="idetree-toggle fa "></span><span class="idetree-filetype fa fa-file-text idetree-typefile"></span><span class="idetree-caption" title="tslint.json">tslint.json</span></div></li></ul></div></div><div class="idetree-drag-line" unselectable="on"></div></div><div class="idepg"><div class="idecontent"><div class="ideview-header"><ul class="ideview-tab"><li class="ideview-tab-item" title="/src/assets/img/covers/._0_tn.jpg"><span class="ideview-tab-name">._0_tn.jpg</span><span class="ideview-tab-close">×</span></li><li class="ideview-tab-item" title="/src/assets/img/covers/0.jpg"><span class="ideview-tab-name">0.jpg</span><span class="ideview-tab-close">×</span></li><li class="ideview-tab-item" title="/src/assets/img/covers/0_tn.jpg"><span class="ideview-tab-name">0_tn.jpg</span><span class="ideview-tab-close">×</span></li><li class="ideview-tab-item ideview-tab-item-active" title="/src/assets/img/covers/1.jpg"><span class="ideview-tab-name">1.jpg</span><span class="ideview-tab-close">×</span></li></ul><div class="ideview-tab-more"></div></div><div class="ideview-body"><div class="ideview-content ideview-content-image" style="display: none;"><div class="ideview-image-inner"><i></i><img src="./2-10 对话框的使用_慕课网_files/_0_tn.jpg" alt="/src/assets/img/covers/._0_tn.jpg"></div></div><div class="ideview-content ideview-content-image" style="display: none;"><div class="ideview-image-inner"><i></i><img src="./2-10 对话框的使用_慕课网_files/0.jpg" alt="/src/assets/img/covers/0.jpg"></div></div><div class="ideview-content ideview-content-image" style="display: none;"><div class="ideview-image-inner"><i></i><img src="./2-10 对话框的使用_慕课网_files/0_tn.jpg" alt="/src/assets/img/covers/0_tn.jpg"></div></div><div class="ideview-content ideview-content-image" style="display: block;"><div class="ideview-image-inner"><i></i><img src="http://sznfsfile5.imooc.com/course/123/01/r2kv8p/workspace/src/assets/img/covers/1.jpg" alt="/src/assets/img/covers/1.jpg"></div></div></div></div></div><div class="ide-sec-dragline-v" unselectable="on"></div></div><div class="ide-mini js-ide-mini"><span class="hd ide-mini-anim"><i class="ide-icon ide-icon-home"></i></span><span class="text">WebIde</span></div><div class="ide-terminal"></div></div></div><!-- end col-right -->
+</div>
+<div class="code-aside-bar">
+	<div class="inner">
+		<a href="https://coding.imooc.com/learn/list/123.html" class="item back">
+			<i class="sz-back"></i>
+			<span class="text-tip">返回</span>
+		</a>
+		<ul class="menus" id="aside-menus">
+			<li class="divider"></li>
+			<li>
+				<a href="javascript:;" class="item js-menu" id="chapter-menu" data-action="expand" data-target="#chapter-expand">
+					<i class="sz-list"></i>
+					<span class="text-tip">章节</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;" data-action="pannel" data-pannel="qa" class="item js-menu">
+					<i class="sz-question"></i>
+					<span class="text-tip">问答</span>
+				</a>
+			</li>
+			<li class="last-item">
+				<a href="javascript:;" data-action="pannel" data-pannel="note" class="item js-menu">
+					<i class="sz-pen"></i>
+					<span class="text-tip">笔记</span>
+				</a>
+			</li>
+			<li class="divider"></li>
+		</ul>
+		<a href="javascript:;" class="item msg" style="display:none">
+			<i class="sz-message"></i>
+			<b>2</b>
+			<span class="text-tip">消息</span>
+		</a>
+		<a href="https://www.imooc.com/space/u/uid/3055104" class="item user" target="_blank">
+			<i>
+			<img src="./2-10 对话框的使用_慕课网_files/58ff42ea0001ed6402720272-80-80.jpg" alt="米吧">
+			</i>
+			<span class="text-tip">我的慕课</span>
+		</a>
+	</div>
+	<div class="expand chapter-expand" id="chapter-expand">
+		<div class="expand-inner">
+			<div class="scroll ps-container" id="chapter-scrollbar">
+				<dl class="chapter-mini-list scroller js-chapters">       <dt class="tit">第1章 课程介绍</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6004" class="js-media " data-id="6004">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Angular打造企业平台导学" class="name text-ellipsis">1-1 Angular打造企业平台导学 (13:50)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6005" class="js-media " data-id="6005">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="环境搭建" class="name text-ellipsis">1-2 环境搭建 (17:33)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>           <dt class="tit">第2章 用 Angular Material 组件打造页面</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5981" class="js-media " data-id="5981">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="项目工程结构介绍" class="name text-ellipsis">2-1 项目工程结构介绍 (17:08)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5983" class="js-media " data-id="5983">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="UI整体布局" class="name text-ellipsis">2-2 UI整体布局 (17:28)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5984" class="js-media " data-id="5984">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Material介绍" class="name text-ellipsis">2-3 Material介绍 (23:40)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5985" class="js-media " data-id="5985">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="MdIcon 组件" class="name text-ellipsis">2-4 MdIcon 组件 (14:43)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5986" class="js-media " data-id="5986">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Input 组件" class="name text-ellipsis">2-5 Input 组件 (18:28)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5987" class="js-media " data-id="5987">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Card 和 Button 组件" class="name text-ellipsis">2-6 Card 和 Button 组件 (17:36)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5988" class="js-media " data-id="5988">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="在侧滑菜单中使用 MdList" class="name text-ellipsis">2-7 在侧滑菜单中使用 MdList (25:24)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5989" class="js-media " data-id="5989">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Angular Material 主题" class="name text-ellipsis">2-8 Angular Material 主题 (26:01)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5990" class="js-media " data-id="5990">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="GridList 打造注册页面头像列表" class="name text-ellipsis">2-9 GridList 打造注册页面头像列表 (17:03)</span>             <span class="list-state state-complete">       <i class="sz-full"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5992" class="js-media cur" data-id="5992">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="对话框的使用" class="name text-ellipsis">2-10 对话框的使用 (34:35)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>            <span class="list-state state-ing js-state-cur">       <span class="latest">正在学习</span>       <i class="sz-clock"></i>      </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5994" class="js-media " data-id="5994">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Autocomplete 的使用" class="name text-ellipsis">2-11 Autocomplete 的使用 (17:01)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5996" class="js-media " data-id="5996">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="任务列表之菜单" class="name text-ellipsis">2-12 任务列表之菜单 (31:08)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5998" class="js-media " data-id="5998">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="任务列表之任务组件" class="name text-ellipsis">2-13 任务列表之任务组件 (24:58)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=5999" class="js-media " data-id="5999">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="任务列表之新任务对话框" class="name text-ellipsis">2-14 任务列表之新任务对话框 (17:07)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6000" class="js-media " data-id="6000">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="任务列表之移动内容对话框" class="name text-ellipsis">2-15 任务列表之移动内容对话框 (13:06)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6001" class="js-media " data-id="6001">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="完成主框架（上）" class="name text-ellipsis">2-16 完成主框架（上） (19:54)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6002" class="js-media " data-id="6002">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="完成主框架（下）" class="name text-ellipsis">2-17 完成主框架（下） (16:27)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>           <dt class="tit">第3章 Angular 动画</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6006" class="js-media " data-id="6006">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="初识 Angular Animation-" class="name text-ellipsis">3-1 初识 Angular Animation- (23:24)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6007" class="js-media " data-id="6007">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="缓动函数和关键帧" class="name text-ellipsis">3-2 缓动函数和关键帧 (14:34)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6008" class="js-media " data-id="6008">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="项目卡片和任务动画" class="name text-ellipsis">3-3 项目卡片和任务动画 (20:26)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6009" class="js-media " data-id="6009">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="路由动画及高阶动画函数" class="name text-ellipsis">3-4 路由动画及高阶动画函数 (33:27)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>           <dt class="tit">第4章 Angular 核心概念回顾和提高</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6010" class="js-media " data-id="6010">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="依赖性注入" class="name text-ellipsis">4-1 依赖性注入 (29:06)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6011" class="js-media " data-id="6011">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="ChangeDetection" class="name text-ellipsis">4-2 ChangeDetection (11:27)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6012" class="js-media " data-id="6012">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="打造支持拖拽的属性型指令" class="name text-ellipsis">4-3 打造支持拖拽的属性型指令 (34:15)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6013" class="js-media " data-id="6013">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="结构型指令、模块和样式" class="name text-ellipsis">4-4 结构型指令、模块和样式 (20:58)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6014" class="js-media " data-id="6014">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="模板驱动型表单处理" class="name text-ellipsis">4-5 模板驱动型表单处理 (20:32)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6017" class="js-media " data-id="6017">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="响应式表单处理和自定义表单控件（上）" class="name text-ellipsis">4-6 响应式表单处理和自定义表单控件（上） (20:34)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6018" class="js-media " data-id="6018">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="响应式表单处理和自定义表单控件（下）" class="name text-ellipsis">4-7 响应式表单处理和自定义表单控件（下） (27:42)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>           <dt class="tit">第5章 Rxjs常见操作符</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6153" class="js-media " data-id="6153">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="RxJS帮你走进响应式编程的世界" class="name text-ellipsis">5-1 RxJS帮你走进响应式编程的世界 (25:52)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6154" class="js-media " data-id="6154">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="常见操作符（一）" class="name text-ellipsis">5-2 常见操作符（一） (30:55)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6155" class="js-media " data-id="6155">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="常见操作符（二）" class="name text-ellipsis">5-3 常见操作符（二） (38:04)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6156" class="js-media " data-id="6156">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="常见操作符（三）" class="name text-ellipsis">5-4 常见操作符（三） (22:05)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6206" class="js-media " data-id="6206">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战复杂表单控件(上)" class="name text-ellipsis">5-5 实战复杂表单控件(上) (30:15)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6207" class="js-media " data-id="6207">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战复杂表单控件（中）" class="name text-ellipsis">5-6 实战复杂表单控件（中） (25:06)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6208" class="js-media " data-id="6208">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战复杂表单控件（下）" class="name text-ellipsis">5-7 实战复杂表单控件（下） (23:08)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>           <dt class="tit">第6章 Angular 中的响应式编程</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6309" class="js-media " data-id="6309">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="高阶操作符" class="name text-ellipsis">6-1 高阶操作符 (41:30)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6310" class="js-media " data-id="6310">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战服务逻辑（上）" class="name text-ellipsis">6-2 实战服务逻辑（上） (18:11)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6312" class="js-media " data-id="6312">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战服务逻辑（中）" class="name text-ellipsis">6-3 实战服务逻辑（中） (36:03)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6311" class="js-media " data-id="6311">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战服务逻辑（下）" class="name text-ellipsis">6-4 实战服务逻辑（下） (22:23)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6313" class="js-media " data-id="6313">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战自动建议表单控件" class="name text-ellipsis">6-5 实战自动建议表单控件 (26:57)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6314" class="js-media " data-id="6314">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Observable 的冷和热以及 Subject" class="name text-ellipsis">6-6 Observable 的冷和热以及 Subject (19:21)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6315" class="js-media " data-id="6315">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战身份验证控件和地址选择控件（上）" class="name text-ellipsis">6-7 实战身份验证控件和地址选择控件（上） (21:55)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6316" class="js-media " data-id="6316">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战身份验证控件和地址选择控件（中）" class="name text-ellipsis">6-8 实战身份验证控件和地址选择控件（中） (21:23)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6317" class="js-media " data-id="6317">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战身份验证控件和地址选择控件（下）" class="name text-ellipsis">6-9 实战身份验证控件和地址选择控件（下） (25:04)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>           <dt class="tit">第7章 使用 Redux 管理应用状态</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6532" class="js-media " data-id="6532">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Redux 的概念和实战(一)" class="name text-ellipsis">7-1 Redux 的概念和实战(一) (32:35)</span>             <span class="list-state state-half">       <i class="sz-half"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6533" class="js-media " data-id="6533">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Redux 的概念和实战(二)" class="name text-ellipsis">7-2 Redux 的概念和实战(二) (30:58)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6534" class="js-media " data-id="6534">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="什么是 Effects" class="name text-ellipsis">7-3 什么是 Effects (13:26)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6535" class="js-media " data-id="6535">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战认证信息流" class="name text-ellipsis">7-4 实战认证信息流 (21:34)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6536" class="js-media " data-id="6536">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战项目信息流（上）" class="name text-ellipsis">7-5 实战项目信息流（上） (14:26)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6655" class="js-media " data-id="6655">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战项目信息流（中）" class="name text-ellipsis">7-6 实战项目信息流（中） (13:51)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6537" class="js-media " data-id="6537">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战项目信息流（下）" class="name text-ellipsis">7-7 实战项目信息流（下） (19:20)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6552" class="js-media " data-id="6552">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战任务列表信息流" class="name text-ellipsis">7-8 实战任务列表信息流 (34:55)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6538" class="js-media " data-id="6538">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战任务 Reducer" class="name text-ellipsis">7-9 实战任务 Reducer (30:01)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6539" class="js-media " data-id="6539">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战任务 Effects" class="name text-ellipsis">7-10 实战任务 Effects (14:50)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6540" class="js-media " data-id="6540">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="实战任务使用 Reducer 和 Effects" class="name text-ellipsis">7-11 实战任务使用 Reducer 和 Effects (22:03)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>           <dt class="tit">第8章 Angular 的测试</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6673" class="js-media " data-id="6673">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="Angular 测试框架介绍" class="name text-ellipsis">8-1 Angular 测试框架介绍 (22:18)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6674" class="js-media " data-id="6674">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="单元测试 Service 和 Effects 以及集成测试" class="name text-ellipsis">8-2 单元测试 Service 和 Effects 以及集成测试 (18:13)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>           <dt class="tit">第9章 课程总结</dt>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6675" class="js-media " data-id="6675">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="第三方组件的集成和懒加载" class="name text-ellipsis">9-1 第三方组件的集成和懒加载 (22:27)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>        <dd>     <a href="https://coding.imooc.com/lesson/123.html#mid=6676" class="js-media " data-id="6676">      <span class="list-type">       <i class="sz-video-c"></i>      </span>      <span title="项目总结" class="name text-ellipsis">9-2 项目总结 (16:46)</span>             <span class="list-state">       <i class="sz-empty"></i>            </span>           </a>    </dd>         <div class="comp-loading" style="display: none;">
+						<i class="sz-loading"></i>
+						<span class="text">数据加载中...</span>
+					</div></dl>
+			<div class="ps-scrollbar-x-rail" style="left: 0px; width: 300px;"><div class="ps-scrollbar-x" style="left: 0px; width: 264px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 8px; height: 656px;"><div class="ps-scrollbar-y" style="top: 0px; height: 186px;"></div></div></div>
+		</div>
+	</div>
+</div>
+<div class="pageload out" id="pageload" style="display: none;">
+	<div class="content">
+		<div class="rond-box">
+			<div id="rond">
+				<div class="runner sz-imooc"></div>
+			</div>
+			<div class="text">LOADING</div>
+		</div>
+		<!-- <i class="loading-icon"></i> -->
+	</div>
+	<!-- <div class="text">数据加载中.....</div> -->
+</div>
+<div class="page-block" id="page-block">
+</div>
+<div class="page-block-msg" id="page-block-msg">
+	<div class="inner">
+		<i></i><span>请稍等^-^</span>
+	</div>
+</div>
+<!-- 问答推荐 -->
+<div class="qa-tip" id="qa-tip"></div>
+
+<!--[if lt IE 9]>
+<script>
+OP_CONFIG.oldie = true;
+</script>
+<div id="old-ie">
+	<div class="inner">
+		<i class="sz-error"></i>
+		<span>为了您能获得更好的体验，请使用IE9+浏览器、Chrome、Firefox以及其他现代浏览器！</span>
+	</div>
+	<div class="imooc-text">
+		<i class="sz-imooc"></i><span>慕课网</span>
+	</div>
+</div>
+<![endif]-->
+
+
+
+        
+
+
+<script type="text/javascript" src="./2-10 对话框的使用_慕课网_files/error.js.下载"></script>
+<script src="./2-10 对话框的使用_慕课网_files/ssologin.js.下载"></script>
+<script type="text/javascript" src="./2-10 对话框的使用_慕课网_files/common.js(1).下载"></script>
+<script type="text/javascript" src="./2-10 对话框的使用_慕课网_files/moco.min.js.下载"></script>
+
+
+<script>
+	// 播放器调用，获取全局变量
+	window.GlobalConfig = function(name){
+		var res = null;
+
+		switch(name){
+			case 'hostname':
+				res = window.location.hostname;
+				break;
+			case 'cid':
+				res = OP_CONFIG.curCourse.id;
+				break;
+			case 'mid':
+				res = OP_CONFIG.mid;
+				break;
+			case 'uid':
+				res = OP_CONFIG.userInfo.phone||OP_CONFIG.userInfo.uid;
+				break;
+			case 'blur':
+				res = 0;
+				break;
+			default:
+				break;	
+		}
+
+		return res;
+	};
+	OP_CONFIG.swfversion = '1.3.30';
+</script>
+<script>/*RESOURCE_MAP*/</script>
+<script data-entry="lesson/index">requirejs(['lesson/index3.0']);</script>
+
+
+<script type="text/imooc-tpl" id="qa-list-tpl">
+    
+    {@if callType != 'prepend'}
+    <div class='qa-list'>
+    {@/if}
+        {@if data.length <= 0}
+            <div class='qa-no-data'>
+            
+            {@if callType == 'search'}
+                暂无相关问题，您可点击“提问”提交
+            {@else}
+                {@if qatype == 1}
+                    暂无热门问答
+                {@else if qatype == 2}
+                    暂无待解决问答
+                {@else if qatype == 3}
+                    你还没有发布任何的提问
+                {@else if qatype == 4}
+                    你还没有回复任何的提问
+                {@/if}
+            {@/if}
+            </div>
+        {@else}
+        
+        {@if callType == 'search'}
+        <div class='qa-serach-tip clearfix'><i class='sz-tips'></i><span>您是不是想找以下问题？</span></div>
+        {@/if}
+        
+        {@each data as value}
+        <div class='qa-list-item {@if !headimg || headimg != "hide"}uheadshow{@/if} clearfix {@if value.answer_type == 1}qa-item-adopt{@/if}'>
+            
+            {@if !headimg || headimg != "hide"}
+            <a class='qa-u-head' target="_blank" href='//www.imooc.com/u/${value.uid}'>
+                <img src='${value.user_img}'>
+                <span class='qa-item-check'>
+                    <i class='imv2-check'></i>
+                </span>
+            </a>
+            {@/if}
+            
+            <div class='qa-item-container'>
+                <div class='qa-item-title' target="_blank">
+                    <a target='_blank' href='/learn/questiondetail/${value.qid}.html'>$${value.title}</a>
+                </div>
+                
+                <div class='qa-item-content'>
+                    
+                    {@if value.answer_type == 5}
+                    {@if value.currentuid == value.uid}
+                    <p>暂无同学回答此问题</p>
+                    {@else}
+                    <div class='qa-reply clearfix'>
+                        <a target='_blank' class='clearfix qa-reply-a' href='/learn/questiondetail/${value.qid}.html'>
+                            <i class='sz-close-h'></i>
+                            <span>我要回答</span>
+                        </a>
+                        
+                        <div class='qa-reward js-qa-reward'>
+                            <i class='qa-trangle'></i>
+                            回答最高获得 3 积分
+                            <i class='imv2-close qa-reward-close js-qa-reward-close'></i>
+                        </div>
+                    </div>
+                    {@/if}
+                    {@else}
+                    <div class='qa-answer border'>
+                        <div class='clearfix qa-answer-t'>
+                        {@if value.answer_type == 6}
+                            <span>我的回答</span>
+                        {@else if value.answer_type == 4}
+                            {@if value.currentuid == value.answer_uid}
+                            <span>我的回答</span>
+                            {@else}
+                            <span>最新回答</span>
+                            {@/if}
+                        {@else if value.answer_type == 1}
+                            {@if value.currentuid == value.answer_uid}
+                            <span class='c_00B43C'>已采纳我的回答</span>
+                            {@else}
+                            <span class='c_00B43C'>已采纳回答</span>
+                            {@/if}
+                        {@else if value.answer_type == 2}
+                            <span>老师回答</span>
+                        {@else if value.answer_type == 3}
+                            <span>最赞回答</span>
+                        {@/if}
+                            {@if value.currentuid != value.answer_uid}
+                                <span class='qa-answer-line'>／</span>
+                                {@if value.answer_role_id == 1}
+                                <i title='讲师' class='id_icon_lecturer'></i>
+                                {@else if value.answer_role_id == 2}
+                                <i title='教学设计师' class='id_icon_teaching_design'></i>
+                                {@else if value.answer_role_id == 7}
+                                <i title='助教' class='id_icon_assistant'></i>
+                                {@/if}
+                                <span>${value.answer_uname}</span>
+                            {@/if}
+                        </div>
+                        
+                        <p>${value.answer_description}</p>
+                    </div>
+                    {@/if}
+                    
+                </div>
+            
+                <div class='qa-item-bottom clearfix'>
+                    <span>${value.answers}回答</span>
+                    <span>${value.view_num}浏览</span>
+                    {@if value.media_title && page != 'lesson'}
+                    <a target="_blank" href='//coding.imooc.com/lesson/${value.cid}.html#mid=${value.mid}'>	   
+                        ${value.chapter_seq}-${value.media_seq} ${value.media_title}
+					</a>
+                    {@/if}
+                    <span class='qa-item-time'>${value.create_time}</span>
+                </div>
+            
+            </div>
+        </div>
+        {@/each}
+        {@/if}
+    {@if callType != 'prepend'}
+    </div>
+    {@/if}
+</script>
+
+<script type="text/imooc-tpl" id="put-qa-tpl">
+<div id='putQAmodal' class='put-qa-container'>
+    
+    <div class='put-qa-head clearfix'>
+        <span>我要提问</span>
+        <i class='imv2-close put-qa-close'></i>
+    </div>
+
+    <div>
+        <input type='text' class='put-qa-input' value='${value}' placeholder='请一句话说明你的问题' />
+        <div class='put-qa-error'></div>
+    </div>
+    
+    <div class="put-qa-detail">
+        <div id="putQAeditor${id}"></div>
+        <div class='put-qa-error'></div>
+    </div>
+    
+    <div class='clearfix'>
+        <div class="put-qa-m">
+            <div class='put-qa-mbtn clearfix'>
+                <span class='put-qa-mlist-curr'></span>
+                <i class="sz-arrow_drop_down put-qa-mdown"></i>
+            </div>
+            <div class="put-qa-mlist"></div>
+        </div>
+        
+        <i class='sz-tips put-qa-tips'></i>
+        <span class='put-qa-span'>正确关联章节，使得问题得到有效回答</span>
+    </div>
+    <div class='put-qa-error'></div>
+    
+    
+    <div class='put-qa-bottom clearfix'>
+    
+        <div class="put-qa-verify clearfix">
+            <input type="text" class="put-qa-verify-text" placeholder="请输入验证码">
+            <i class="sz-done put-qa-verify-right"></i>
+            
+            <img src="/learn/getcoursequestioncode?r=1" class="put-qa-verifycode"/>
+            
+            <div class="put-qa-verify-help">
+                <span>看不清</span>
+                <a href="javascript:;" class="put-qa-change-word">换一换</a>
+            </div>
+            <p class="put-qa-verify-reminder"></p>
+        </div>
+        
+        
+        <input type='button' class='put-qa-submit' value='提交' />
+    </div>
+</div>
+<div id='putQAmodalopa' class='put-qa-opa'></div>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 章节列表模板 -->
+	<script type="text/imooc-tpl" id="chapter-tpl">
+		{@each data as chapter, i}
+			<dt class="tit">第${i|plus}章 $${chapter.chapter_name}</dt>
+			{@each chapter.media_list as media, j}
+			<dd>
+				<a href="#mid=${media.media_id}" class="js-media {@if media.media_finished == 2}cur{@/if}" data-id="${media.media_id}">
+					<span class="list-type">
+						<i class="sz-{@if media.media_type == 1}video{@else if media.media_type == 2}code{@/if}-c"></i>
+					</span>
+					<span title='$${media.media_name}' class="name text-ellipsis">${i|plus}-${j|plus} $${media.media_name} {@if media.media_type == 1}($${media.media_video_duration}){@/if}</span>
+					{@if media.media_finished == 0}
+						<span class="list-state state-half">
+						<i class="sz-half"></i>
+					{@else if media.media_finished == 1}
+						<span class="list-state state-complete">
+						<i class="sz-full"></i>
+					{@else}
+						<span class="list-state">
+						<i class="sz-empty"></i>
+					{@/if}
+					</span>
+					{@if media.media_finished == 2}
+					<span class="list-state state-ing js-state-cur">
+						<span class="latest">正在学习</span>
+						<i class="sz-clock"></i>
+					</span>
+					{@/if}
+				</a>
+			</dd>
+			{@/each}
+		{@/each}
+	</script>
+	<script type="text/imooc-tpl" id="task-tpl">
+		<h2 class="code-head" id="J_CodeLang" data-lang="">${program_name}</h2>
+		<div class="code-description" id="J_CodeDescr">
+			<div class="code-desc co">
+				$${program_description}
+			</div>
+			<div class="code-tips">
+				<p>
+				  <strong>任务</strong>
+				</p>
+				<div class="co">
+					$${program_task}
+				</div>
+				<!-- <div class="code-qa" id="J_CodeQa">
+					<dl>
+						<dt><b>?</b>不会了怎么办</dt>
+						<dd class="hide">
+							<div class="co">
+								$${program_tips}
+							</div>
+						</dd>
+					</dl>
+				</div> -->
+			</div>
+		</div>
+		<div class="next-content">
+		<div id="task-next-holder"></div>
+		</div>
+	</script>
+	<!-- 笔记动态信息模板 -->
+	<script type="text/imooc-tpl" id="note-post-tpl">
+		<li data-id="${note_id}" class="post-row">
+		    <div class="media">
+		        <a href="${note_author_id|spaceUrl, 'user'}" target="_blank" title="${note_author_nickname}"><img src="${note_author_head}" width="40" height="40" alt="${note_author_nickname}"></a>
+		    </div>
+		    <div class="bd">
+		        <div class="tit">
+		        {@if note_src_note_id != 0}
+		        	采集自&nbsp;&nbsp;
+		            <a href="${note_src_user_id|spaceUrl, 'user'}" target="_blank">${note_src_user_nickname}</a>
+		            &nbsp;&nbsp;的笔记
+		        {@else}
+		        	<a href="${note_author_id|spaceUrl, 'user'}" target="_blank">${note_author_nickname}</a>
+		        {@/if}
+		        </div>
+		        <div class="cnt">
+		        	<pre class="cnt-area autowrap js-post-cnt">$${note_content}</pre>
+		        	<textarea class="cnt-area autowrap js-post-edit">$${note_content}</textarea>
+		        </div>
+		        {@if note_picture_url}
+		        {@include '#note-post-thumbs', thumbs}
+		        {@/if}
+		        <div class="footer clearfix">
+		            <span class="l timeago">时间：${note_update_time}</span>
+		            <!-- <a href="/video/1589" class="from l">源自：1-7 xiaoship</a> -->
+		            <div class="actions r">
+		                {@if self == true}{# 自己发布的显示编辑删除， 转载的不显示编辑}
+		                {@if note_src_note_id == 0}
+		                <a title="编辑" href="javascript:;" class="post-action " data-mid="${note_id}" data-action="edit">
+		                    <span class="ac-icon">
+		                        <i class="sz-edit"></i>
+		                    </span>
+		                    <em>编辑</em>
+		                </a>
+		                <i class="split l">|</i>
+		                {@/if}
+		                <a title="删除" href="javascript:;" class="post-action " data-mid="${note_id}" data-action="del">
+		                    <span class="ac-icon"><i class="sz-delete"></i></span><em>删除</em>
+		                </a>
+		                {@else}
+		                <a title="采集" href="javascript:;" class="Jcollect post-action {@if note_user_collect}on{@/if}" data-mid="${note_id}" data-action="{@if note_user_collect}uncollect{@else}collect{@/if}">
+		                    采集<em>${note_collect_num}</em>
+		                </a>
+		                <a title="赞" href="javascript:;" class="Jpraise post-action {@if note_user_support}on{@/if}" data-mid="${note_id}" data-action="{@if note_user_support}unpraise{@else}praise{@/if}">
+		                    <span class="ac-icon">
+		                    {@if note_user_support}<i class="sz-thumb"></i>{@else}<i class="sz-thumb-o"></i>{@/if}                
+		                    </span><em>${note_support_num}</em>
+		                </a>
+		                {@/if}
+		            </div>
+		        </div>
+		    </div>
+		</li>
+	</script>
+	<script type="text/imooc-tpl" id="note-post-thumbs">
+		<div class="answercon">
+		    <div class="answerImg answer-img js-answer-img-small" id="ansmallPic">
+		        <img src="${small}" width="156" height="88" data-small="${small}" data-big="${big}" data-src="${big}">
+		        <!-- <a href="javascript:;" class="view-ctrl"></a> -->
+		        <em class="time">${time}</em>
+		    </div>
+		</div>
+	</script>
+	<!-- 问答动态信息模板 -->
+	<script type="text/imooc-tpl" id="qa-post-tpl">
+		<div class="wenda-listcon mod-qa-list clearfix" data-id="${question_id}">
+		    <div class="headslider qa-medias l">
+		      <a href="${question_uid|spaceUrl, 'user'}" class="media" target="_blank" title="${question_user_nickname}">
+			      <img src="${question_user_head}" width="40" height="40" alt="${question_user_nickname}">
+		      	  <i class="nofinish qa-state">
+	                <i class="{@if question_finished > 0}sz-done{@else}sz-help{@/if}"></i>
+	              </i>
+		      </a>
+		    </div>
+		    <div class="wendaslider qa-content">
+		        <h2 class="wendaquetitle qa-header">
+		            <a href="${question_uid|spaceUrl, 'user'}" class="name">${question_user_nickname}</a>
+		            <div class="wendatitlecon qa-header-cnt">
+						{@if type !=4 && is_choiceness == "1"}
+						<i class="jchoose l">[精选]</i>
+						{@/if}
+		                <!-- <span class="top l">
+		                    <i class="sz-top"></i>
+		                </span> -->
+		                <a href="/learn/questiondetail/${question_id}.html" target="_blank" class="qa-tit">$${question_title}</a>
+		            </div>
+		        </h2>
+		        <div class="replycont qa-body clearfix">
+		            <div class="replydes">
+		            	{# 5->无回答
+						   1->已采纳
+						   2->老师回答
+						   3->最赞回答
+						   4->最新回答
+						   6->我的回答
+		            	}
+		            	
+		            	{@if answer_type == 5}
+		            	<span class="replysign praise">
+			                {@if question_uid == uid }
+		                	<span class="replydet">暂无同学回答此问题</span>
+		                	{@else}
+		                	<p class="go-answer-box">
+	                            <a href="/learn/questiondetail/${question_id}.html" target="_blank" class="go-answer">撰写答案</a>
+	                            <a href="https://www.imooc.com/about/faq?t=3" target="_blank" class="integral-intro">回答问题最高可获<span>3积分</span>哦！</a>
+	                        </p>
+	                        {@/if}
+	                    </span>
+	                    {@else} 
+	                    <span class="replysign praise {@if answer_type==1 || answer_type==2}highlight{@/if}">
+			                {@if answer_type==6}
+			                	[我的回答]
+		                	{@else}
+							[
+								{@if answer_type==1}已采纳
+								{@else if answer_type==2}老师
+								{@else if answer_type==3}最赞
+								{@else if answer_type==4}最新
+								{@/if} 
+					            {@if answer_user_role_id == 1}
+								<i class="identity sz-imooc" title="教师"></i>
+								{@else if answer_user_role_id == 2}
+								<i class="identity sz-jxsjs" title="教学设计师"></i>
+								{@else if answer_user_role_id == 7}
+								<i class="identity sz-zhuj" title="助教"></i>
+								{@/if}
+				                <a href="${answer_uid|spaceUrl,'user'}" target="_blank" title="${answer_user_nickname}" class="nickname">${answer_user_nickname}</a>
+				             的回答]
+				             {@/if}
+						</span>
+		                <span class="replydet">$${answer_description}</span>
+		                {@/if}
+		            </div>
+		        </div>
+		        <div class="replymegfooter qa-footer">
+		            <div class="wenda-time clearfix">
+		                <em class="l">时间：${question_update_time}</em>
+						<div class="r {@if question_answer_num > 0}hasanswer{@/if}">
+							<span class="static-item answer">
+								<i class="val">${question_answer_num}</i>
+								<span class="key">回答</span>
+							</span>
+							<span class="static-item">
+								<i class="val">${question_view_num}</i>
+								<span class="key">浏览</span>
+							</span>
+						</div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</script>
+	<!-- 问答、笔记空占位符 -->
+	<script type="text/imooc-tpl" id="empty-holder-tpl">
+		<div class="empty-holder">
+		    <p>
+		    {@if !type}
+			    {@if key == 0}
+			    本课暂无热门问答
+			    {@else if key == 4}
+			    暂无精选问答
+			    {@else if key == 2}
+			    你还没有发布任何的提问
+			    {@else if key == 3}
+			    你还没有回复任何的提问
+				{@else if key == 1}
+				本课暂无待解决问答
+			    {@/if}
+			{@else if type == 'note'}
+				{@if key == 0}
+				暂无相关笔记
+				{@else if key = 1}
+				你还没有发布任何笔记
+				{@/if}
+			{@/if}
+		    </p>
+		</div>
+	</script>
+	<script type="text/imooc-tpl" id="modal-msg-tpl">
+		<div class="modal modal-msg ${state}">
+			<span class="state-icon">
+				{@if state == 'success'}
+				<i class="sz-done"></i>
+				{@else if state= 'error'}
+				<i class="sz-error"></i>
+				{@/if}
+			</span>
+			<span class="state-text">${msg}</span>
+		</div>
+	</script>
+	<!-- 经验增加提示 -->
+	<script type="text/imooc-tpl" id="mp-tip-tpl">
+		<div class="mp-inner">
+			<div class="tit">
+				<span class="num">+${num}</span>MP
+			</div>
+			<p class="desc">${desc}</p>
+		</div>
+	</script>
+	<!-- 推荐问答提示 -->
+	<script type="text/imooc-tpl" id="qa-tip-tpl">
+		<i class="trangle"></i>
+		<i class="close-btn sz-close js-close"></i>
+		<p class="small-title">帮同学来回答这个问题</p>
+		{@each data as qa, i}
+		<div class="qa-detail {@if i != 0}hideqa{@else}showqa{@/if} js-${i}"  data-qanum="${i}">
+			<p class="qa-title">
+				<span class="sz-help"></span>
+				${qa.title}
+			</p>
+			<div class="bottom-box clearfix">
+				<span class="l add-exp">+30经验</span>
+				<span class="l add-credit">+1积分</span>
+				<a href="${qa.url}" class="go-answer r js-close" target="_blank">我来回答</a>
+				{@if data.length > 1}<div class="r change-qa js-change-qa" data-sum="${data.length}">换个问题</div>{@/if}
+			</div>
+		</div>
+		{@/each}
+	</script>
+
+	<script type="text/imooc-tpl" id="next-media-tpl">
+			<p class="next-hd">
+				{@if !over}
+				下一节：<span class="next-name">$${name}</span>{@if type == 1}<span class="next-time">(${duration})</span>{@/if}
+				{@else}
+				最后一节啦！
+				{@/if}
+			</p>
+			<div class="next-btns">
+				{@if !over}
+				<a href="#mid=${id}" data-mid="${id}" class="next-btn js-next-media">下一节</a>
+				{@else}
+				<a href="/learn/list/${cid}.html" class="next-btn">返回课程列表</a>
+				{@/if}		
+			</div>
+	</script>
+	<script type="text/imooc-tpl" id="confirm-modal-tpl">
+		<div class="confirm-modal">
+			<div class="body">
+				<div class="modal-icon">
+					<i class="sz-pen"></i>
+				</div>
+				<div class="modal-text">
+					$${content}
+				</div>
+			</div>
+			<div class="footer">
+				<a href="javascript:;" class="modal-btn modal-btn-ok">确定</a>
+				<a href="javascript:;" class="modal-btn modal-btn-no" data-role="close">取消</a>
+			</div>
+		</div>
+	</script>
+	<!-- 推荐问答提示 -->
+	<script type="text/imooc-tpl" id="qa-tip-tpl">
+		
+	</script>
+    <!-- 备份模板 -->
+    <script type="text/imooc-tpl" id="webide-backup-tpl">
+		<div class="webide-backup">
+		    
+            <div class='webide-backup-sidebar'>
+                <div class='webide-icon-home'></div>
+                <span class="webide-backup-text">WebIde</span>
+            </div>
+            
+            <div class='webide-backup-content'>
+                
+                {@if backup_status == 1}
+                    <p>
+                        你的项目源代码正在备份中
+                        <span class='backuploading'>
+                            <span>.</span>
+                            <span>.</span>
+                            <span>.</span>
+                            <span>.</span>
+                            <span>.</span>
+                        </span>
+                    </p>
+                {@/if}
+            
+                {@if backup_status == 2}
+                <a href="javascript:;" class="moco-btn moco-btn-blue openide js-openide">打开WebIDE项目源代码</a>
+                <p>你的项目源代码因长时间未使用，已被云服务打包封存。如需使用可点击上方按钮，开启WebIDE源代码编辑即可</p>
+                {@else if backup_status == 4}
+                    <p>
+                        你的项目源代码正在加载中
+                        <span class='backuploading'>
+                            <span>.</span>
+                            <span>.</span>
+                            <span>.</span>
+                            <span>.</span>
+                            <span>.</span>
+                        </span>
+                    </p>
+                {@/if}
+            </div>
+		</div>
+	</script>
+
+
+<div style="display: none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?c1c5f01e0fc4d75fd5cbb16f2e713d56";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</div>
+
+
+
+<div class="environment-box righthide" id="environment-box"><div class="environment-title clearfix"><span>Environment</span><i class="sz-close js-environment-close"></i></div><div class="environment-body"><div class="environment-item clearfix"><div class="environment-item-label">Database</div><div class="environment-item-cont"><div>MySQL</div><div class="database-info"><div class="database-item clearfix"><sapn>Username：3055104</sapn></div><div class="database-item clearfix"><sapn>Password：<span class="database-pass">123456</span><a href="javascript:;" class="js-database-passchange database-passchange">change</a><div class="database-resetpass clearfix"><input type="text" placeholder="set new password"><span class="js-database-passsave">Save</span></div><div class="environment-loading"><div><i class="sz-loading"></i></div></div></sapn></div></div></div></div></div></div><div class="ide-context" style="left: 757px; top: 334px; display: none;"><ul><li class="ide-context-item " data-key="rename"><span>Rename</span></li><li class="ide-context-item " data-key="del"><span>Delete</span></li></ul></div></body></html>
