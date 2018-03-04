@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { SharedModule } from '../shared/shared.module';
 import { ProjectRoutingModule } from './project-routing.module';
+import { MdDialogModule } from '@angular/material'
 
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectItemComponent } from './project-item/project-item.component';
@@ -10,7 +11,8 @@ import { InviteComponent } from './invite/invite.component';
 @NgModule({
   imports: [
     SharedModule,
-    ProjectRoutingModule
+    ProjectRoutingModule,
+    MdDialogModule
   ],
   declarations: [
     ProjectListComponent,
