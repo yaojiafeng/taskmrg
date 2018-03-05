@@ -11,6 +11,10 @@ html,body,app-root,md-sidenav-container,.site{
     flex-direction:column;    
 }
 main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 .full-width{
@@ -18,4 +22,9 @@ main{
 }
 .fill-remaining-space{
     flex: 1 1 auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: black;
 }
