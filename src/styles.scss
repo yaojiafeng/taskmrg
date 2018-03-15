@@ -11,10 +11,6 @@ html,body,app-root,md-sidenav-container,.site{
     flex-direction:column;    
 }
 main{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
     flex: 1;
 }
 .full-width{

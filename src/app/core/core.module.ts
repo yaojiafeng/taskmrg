@@ -1,5 +1,6 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { HttpModule } from '@angular/http';
+import { AppRoutingModule } from '../app-routing-module'
 import { SharedModule } from '../shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdIconRegistry } from '@angular/material';
@@ -16,7 +17,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   imports: [
     HttpModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule,
+    AppRoutingModule
   ],
 
   declarations: [
@@ -27,7 +29,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   exports: [
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    AppRoutingModule
   ],
 })
 export class CoreModule {
